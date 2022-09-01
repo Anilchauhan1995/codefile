@@ -1,0 +1,151 @@
+
+@media (max-width:1024px) {
+    .seller_journey_section{
+        .journey_wrapper{
+            .journey_image{
+                
+                img{
+                    width: 100%;
+                    transform: translateX(2rem);
+                }
+            }
+        }
+    
+    }
+    section.why_choose_section {
+        button.slick-next.slick-arrow {
+            top:-10%;
+          
+        }
+        button.slick-prev.slick-arrow {
+            top:-10%;
+            
+        }
+    }
+    .counter_section{
+        .row.row-gap-1{
+            row-gap: 1.5rem;
+        }
+    }
+    section.about_section {
+        button.slick-next.slick-arrow {
+            right: 12px;
+        }
+        button.slick-prev.slick-arrow {
+            left: 12px;
+        }
+    }
+    
+}
+@media (max-width:767px) {
+    .row.row-gap-1{
+        row-gap: 1.5rem;
+    }
+    .row-gap-1rem{
+        row-gap: 1rem;
+    }
+    h1.h1 {
+        font-size: 2.4rem !important;
+    }
+    
+    // .slick-prev, .slick-next{
+    //     display: none !important;
+    // }
+    .icon_wrapper span {
+        display: none;
+    }
+    section.why_seller_section .how_to_work.border_center .icons{
+        margin-bottom: 0;
+    }
+    section.why_seller_section .how_to_work.border_center::after {
+    
+        top: calc(50%);
+    }
+
+    header.header{
+        .bg_gradient{
+            .right_side{
+                form.d-flex.mt-3{
+                    display: none !important;
+                }
+            }
+        }
+    }
+    .seller_journey_section{
+        .journey_wrapper{
+            .journey_image{
+                
+                img{
+                    width: 100%;
+                    transform: unset;
+                }
+            }
+        }
+    
+    }
+    
+    .banner_Section{
+        background-position: 83% 100%;
+       .banner_content{
+            .banner_text{
+                padding: 2rem;
+                
+            }
+        }
+    }
+
+    
+
+    // why seller section css
+section.why_seller_section{
+            
+    .icons {
+        width: 60px !important;
+
+        img{
+            width: 100%;
+        }
+        
+     }
+
+    
+
+}
+
+// why seller section css end
+
+section.why_choose_section {
+    button.slick-next.slick-arrow {
+        top: unset !important;
+        bottom: -19%;
+        right: 40%;
+    }
+    button.slick-prev.slick-arrow {
+        top: unset !important;
+        bottom: -19%;
+        right: 50%;
+    }
+}
+
+section.about_section {
+    .slick-arrow {
+        bottom: -5% !important;
+        top: unset !important;
+        right: 50%;
+    }
+}
+
+section.news_blog_section{
+    .blog_slider .slick-arrow {
+        bottom: -10% !important;
+        top: unset !important;
+        right: 40%;
+    }
+    button.slick-prev.slick-arrow {
+        left: 55%;
+    }
+} 
+
+
+
+}
